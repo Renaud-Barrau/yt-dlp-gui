@@ -155,7 +155,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 self,
                 "Application Message",
                 "Unable to clear list because there are active downloads in progress.\n"
-                "Remove a download by clicking on it.",
+                "Remove a download by right clicking on it and selecting delete.",
             )
 
         self.worker = {}
